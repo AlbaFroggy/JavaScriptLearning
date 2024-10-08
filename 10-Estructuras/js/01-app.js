@@ -1,4 +1,4 @@
-
+//IF ELSE
 
 let punto=1000;
 

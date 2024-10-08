@@ -10,8 +10,13 @@ pendientes.forEach((pendiente)=>console.log(pendiente))
 pendientes.forEach(pendiente=>console.log(pendiente))
 
 //El foreach va a devolver en indice, el valor del indice del array
-pendientes.forEach((pendiente,indice)=>console.log(`${indice}:${pendiente}`))
+//MUY MUY IMPORTANTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//Cuando tratamos una pag html de forma dinámica, estamos cargando muchos datos que posiblemente vienen de un array
+//el html y el javascript tiene que estar en consonancia, que se hará así:
 
+pendientes.forEach((pendiente,indice)=>console.log(`${indice}:${pendiente}`))
+//pendiente es el valor temporal que va recogiendo cada valor del array y índice es el índice del array
+//él automáticamente va poniendo en índice el índice por donde está
 const carrito=[
     {nombre:'Monitor 27 pulgadas', precio:500},
     {nombre:'Television', precio:100},

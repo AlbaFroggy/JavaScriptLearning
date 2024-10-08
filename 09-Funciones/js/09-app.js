@@ -1,4 +1,4 @@
-
+//declaración normal con un parámetro
 
 const aprendiendo =function(tecnologia){
     console.log(`Aprendiendo  ${tecnologia}`);
@@ -6,6 +6,7 @@ const aprendiendo =function(tecnologia){
 
 aprendiendo('JavaScript');
 
+//haciéndolo con arrow function
 const aprendiendo2 = (tecnologia)=>{
     console.log(`Aprendiendo ${tecnologia}`);
 }
@@ -20,6 +21,7 @@ const aprendiendo4 =(tecnologia) => `Aprendiendo ${tecnologia}`;
 aprendiendo4('REACT');
 
 //Cuando hay un sólo parámetro los parentesis son opcionales
-
+//parámetro, flecha y lo que devuelve
+//SOLO SI ES UN PARÁMETRO
 const aprendiendo5= tecnologia => `Aprendiendo ${tecnologia}`;
 aprendiendo('ANGULAR');

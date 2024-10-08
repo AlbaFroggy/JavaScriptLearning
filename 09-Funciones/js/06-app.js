@@ -1,3 +1,5 @@
+//si hago un return en mitad del código, en ese punto se saldrá de la función, devolviendo lo que tenga ahí
+
 function Sumar (a,b) {
     return a+b;
 }

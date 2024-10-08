@@ -16,4 +16,4 @@ for (let pendiente of pendientes){
 
 for (let producto of carrito){
     console.log(producto.nombre);
-}
+} //no itera sobre arrays complejos

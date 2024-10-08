@@ -7,7 +7,10 @@ const carrito=[
     {nombre:'Movil', precio:700}
 ];
 
+//El foreach es un arrow function
 const nuevoArray1=carrito.forEach((producto)=>{
+    //en el nuevoArray1 recordar que el return con el foreach no devuelve a nuevoArray1 nada,
+    //a diferencia del map, que construye un array con el resultado de los returns que devuelve en cada vuelta
     return `${producto.nombre}-Precio:${producto.precio}`;    
 
 } );  //No Crea la variable por lo que nuevoArray1 estará vacio

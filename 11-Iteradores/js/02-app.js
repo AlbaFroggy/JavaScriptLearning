@@ -1,7 +1,8 @@
 for(let i=0; i<10;i++){
     if(i === 5){
         console.log('Este es el 5');
-        break;
+        break; //llegado un punto no me interesa seguir con el for
+        //rompo la secuencia cuando me interesa, para salir del for
     }
     console.log(`Numero:${i}`);
 }
@@ -13,9 +14,9 @@ console.log("Continua por aki");
 //siguiente instrucción después del for
 
 for(let i=0; i<10;i++){
-    if(i === 5){
+    if(i === 5){ //cuando llega al 5
         console.log('Este es el 5');
-        continue;
+        continue; //en vez de seguir, vuelve al 6 y sigue hasta que se pase de la condición <10
     }
     console.log(`Numero:${i}`);
 }
@@ -33,9 +34,10 @@ const carrito=[
     {nombre:'Movil', precio:700}
 ];
 
+//buscamos cuál tiene un descuento
 
 for(let i=0; i<carrito.length;i++){
-    if (carrito[i].descuento){
+    if (carrito[i].descuento){ //si es true descuento
         console.log(`El artículo ${carrito[i].nombre} tiene descuento`);
     }
     console.log(carrito[i].nombre);

@@ -1,3 +1,4 @@
+//OPERADORES LÓGICOS AND Y OR
 const usuario = true;
 const puedePagar = true;
 

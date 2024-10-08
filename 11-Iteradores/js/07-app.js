@@ -14,6 +14,8 @@ for (let propiedad in automovil){
     console.log(`${automovil[propiedad]}`);
 }
 
+//podemos iterar poniendo (of)
+//si utilizas el Object.entries se puede utilizar con todo
 for (let[llave,valor] of Object.entries(automovil)){
     console.log(valor);
     console.log(llave);

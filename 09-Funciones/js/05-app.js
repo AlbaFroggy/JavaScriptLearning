@@ -1,4 +1,5 @@
-
+//Una función siempre devuelve algo
+//En un procedimiento no hay nada que devolver (en java con void)
 
 function InciarApp(){
     console.log("Iniciando App....");
